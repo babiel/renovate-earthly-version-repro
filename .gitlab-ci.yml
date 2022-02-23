@@ -1,0 +1,4 @@
+
+  image:
+    name: earthly/earthly:v0.1645577121.19399578@sha256:a760fb08f976ea1d44f1e3da5fe304b3d4f948fee232892bfb9d08a8d78ed311
+    entrypoint: [ "sh", "-c" ]

@@ -1,0 +1,14 @@
+{
+    "packageRules": [
+        {
+            "matchDatasources": [
+                "docker"
+            ],
+            "matchPackagePatterns": [
+                "^earthly/"
+            ],
+            "allowedVersions": "!/\\d{4,}/",
+            "rollbackPrs": true
+        }
+    ]
+}
